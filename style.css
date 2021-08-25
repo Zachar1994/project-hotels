@@ -5,9 +5,6 @@ nav,ul {
     list-style: none;
 }
 body {
-    width: 1920px;
-    max-width: 100%;
-    margin: 0 auto;
     background: #F1F1F1;
 }
 html {
@@ -26,7 +23,6 @@ html {
     align-items: center;
 }
 .header-first-line-tel {
-    /*margin-left: 36px;*/
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
@@ -35,7 +31,6 @@ html {
 .header-first-line-link {
     background: url("img/Vector\ \(7\).png") no-repeat center left;
     padding-left: 25px;
-    /*margin-left: 560px;*/
     color: #CC9933;
     font-size: 16px;
     line-height: 16px;
@@ -61,135 +56,116 @@ html {
     font-weight: 400;
     color: #666666;
 }
-.header-second-line-list-button1 {
-    border: 1px solid #CC9933;
-    border-radius: 10px;
-    color:#CC9933;
-    padding: 13px 20px;
-}
-.header-second-line-list-button2 {
-    border: 1px solid #CC9933;
-    border-radius: 10px;
-    color:#CC9933;
-    padding: 13px 20px;
-}
-/*Section1*/
-.section1-head {
+
+
+
+
+/*Section-special-Offer*/
+.section-head {
     margin-top: 70px;
     font-size: 40px;
     line-height: 40px;
     font-weight: 400;
     margin-left: 40px;
 }
-.section1-boxes-general {
+.section-boxes-general {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     
 }
-.section1-boxes {
+.section-boxes {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.section1-box1 {
+.section-box-maldives {
     background: url("img/Rectangle\ 14.png") no-repeat;
     width: 573px;
     max-width: 100%;
     min-height: 258px;
     color: white;
 }
-.section1-boxes-head {
+.section-boxes-head {
     padding-left: 40px;
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
 }
-.section1-boxes-price {
+.section-boxes-price {
     padding-left: 40px;
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
 }
-.section1-box2 {
+.section-box-crit {
     background: url("img/Rectangle\ 16.png") no-repeat;
-    width: 573px;
-    max-width: 100%;
+   
+    width: 100%;
     min-height: 258px;
     color: white;
 }
 
-.section1-general {
+.section-general {
     background: url("img/33\ 1.png") no-repeat;
     width: 573px;
     max-width: 100%;
     min-height: 540px;
     color: white;
 }
-.section1-general-head {
+.section-general-head {
     font-size: 60px;
     line-height: 60px;
     font-weight: 700;
     padding-left: 40px;
     padding-top: 150px;
 }
-.section1-general-price {
+.section-general-price {
     padding-left: 40px;
     font-size: 30px;
     line-height: 30px;
     font-weight: 400;
 }
-.section1-boxes-link {
+.section-boxes-link {
     background: url("img/Rectangle\ 2.png") no-repeat center right;
     padding-right: 15px;
     color: #FFCC66;
     margin-left: 40px;
 }
-/*Section2*/
-.section2-head {
-    margin-top: 70px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-    margin-left: 40px;
-}
-.section2-text {
+
+/*Section-about-us*/
+.section-text {
     width: 888px;
     max-width: 100%;
     font-size: 16px;
     line-height: 200%;
     font-weight: 400;
 }
-/*Section3*/
-.section3-services {
+
+/*Section-services*/
+.section-services-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 23px;
 }
-.section3-head {
-    margin-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-}
-.section3-box {
+
+.section-box {
     width: 573px;
     max-width: 100%;
     min-height: 330px;
     border-radius: 15px;
     background: #FFFFFF;
 }
-.section3-box-text {
+.section-box-text {
     width: 402px;
     max-width: 100%;
     margin-left: 30px;
 }
-.section3-box-img {
+.section-box-img {
     max-width: 100%;
 }
-.section3-box-text-head {
+.section-box-text-head {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
@@ -198,77 +174,65 @@ html {
     display: inline-block;
     padding-right: 15px;
 }
-.section3-box-promo {
+.section-box-promo {
     margin: 0%;
     font-size: 16px;
     line-height: 200%;
 }
-/*section4*/
-.section4-head {
-    margin-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-}
-.section4-content {
+/*section-advantages*/
+
+.section-advantages-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 23px;
 }
-.section4-content-box {
+.section-content-box {
     width: 275px;
     min-height: 275px;
     background: #FFFFFF;
     border-radius: 15px;
 }
-.section4-content-box-inside {
+.section-content-box-inside {
     width: 188px;
     margin-left: 40px;
     margin-top: 40px;
 }
-.section4-content-box-text {
+.section-content-box-text {
     font-size: 16px;
     line-height: 200%;
     font-weight: 400;
 }
-/*section5*/
-.section5-head {
-    margin-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-}
-.section5-content {
+/*section-apartment*/
+
+.section-apartment-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 24px;
 }
-.section5-content-box {
+.section-apartment-content-box {
     width: 374px;
     min-height: 440px;
     background: #FFFFFF;
     border-radius: 15px;
 }
-.section5-content-box-inside {
+.section-apartment-content-box-inside {
     margin-left: 45px;
     margin-top: 36px;
 }
 .star {
     padding-left: 55px;
 }
-.section5-content-box-last {
+.section-apartment-content-box-last {
     width: 374px;
     min-height: 440px;
     background: url("img/41\ \(1\).png") no-repeat;
 }
-.section5-content-box-last1 {
+.section-apartment-content-box-last-box {
     margin-top: 373px;
 }
-.section5-content-box-last-link {
+.section-apartment-content-box-last-link {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
@@ -298,49 +262,10 @@ html {
     border-radius: 10px;
     background: transparent;
 }
-/*Section6*/
-.section6-content {
-    margin-top: 70px;
-    width: 1170px;
-    max-width: 100%;
-    min-height: 274px;
-    background:  #E9E9E9;
-    border-radius: 15px;
-}
-.section6-head {
-    padding-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-}
-.section6-content-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.section6-content-list-item {
-    background: #FFFFFF;
-    width: 180px;
-    height: 40px;
-    border-radius: 15px;
-    border: unset;
-}
-.section6-content-list-button {
-    border: 1px solid #CC9933;
-    padding: 13px 25px;
-    color: #CC9933;
-    border-radius: 15px;
-}
-/*section7*/
-.section7-head {
-    padding-top: 70px;
-    margin-left: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
-}
-.section7-content {
+
+/*section-contacts*/
+
+.section-contacts-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -351,11 +276,11 @@ html {
     background: #FFFFFF;
     border-radius: 15px;
 }
-.section7-content-table {
+.section-contacts-content-table {
     width: 396px;
     min-height: 528px;
 }
-.section7-content-table-list-item {
+.section-contacts-content-table-list-item {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -421,7 +346,7 @@ html {
     flex-wrap: wrap;
     
 }
-.footer-block1 {
+.footer-block-text {
     width: 320px;
     min-height: 242px;
     color: white;
@@ -432,39 +357,38 @@ html {
     line-height: 50px;
     
 }
-.block1-text1 {
+.block-text1 {
     font-size: 16px;
     line-height: 190%;
 }
-.block1-text2 {
+.block-text2 {
     font-size: 16px;
     line-height: 190%;
 }
-.block1-link {
+.block-link {
     color: #CC9933;
 }
-.footer-block2 {
+.footer-block-adress{
     margin-left: 102px;
     margin-top: 44px;
-}
-.footer-block2 {
     display: flex;
     flex-direction: column;
 }
-.block2-adress {
+
+.block-adress {
     color: white;
 }
-.block2-tel {
+.block-tel {
     color: #CC9933;
     line-height: 16px;
 }
-.block2-mail {
+.block-mail {
     color: #CC9933;
 }
-.footer-block3 {
+.footer-block-networks {
     margin-left: 240px;
 }
-.block3-list {
+.block-list {
     margin-top: 44px;
     display: flex;
     flex-direction: column;
@@ -472,7 +396,13 @@ html {
 }
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
+    
+    .section-box-maldives {
+        width: 100%;
+    }
+    
+    
     .header-first-line {
         flex-direction: row;
     }
